@@ -11,6 +11,7 @@ while ($csv_line = fgetcsv($fp,1024)) {
    $surname = ucfirst(strtolower(trim("$csv_line[1]")));
    $email = strtolower(trim("$csv_line[2]"));
 
+//removes the header row from records.
 if($name.$surname.$email == "NameSurnameemail"){
 continue;
 } 
