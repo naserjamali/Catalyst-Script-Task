@@ -15,3 +15,7 @@ Issues:
 2-Some names and surnames with apostrophe causing SQL syntax errors.
 
 user_upload_v6.php: previous bugs regarding entering invalid email and apostrophe error has been fixed.
+
+create_table.php: This script creates "users" table in the database.
+
+dry_run.php: This script reads contents of a CSV file and outputs them onto the screen (no database entry).
