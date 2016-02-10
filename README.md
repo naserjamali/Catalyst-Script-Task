@@ -13,3 +13,5 @@ user_upload_v5.php: This version is a draft for the final version, however, ther
 Issues: 
 1-Invalid email still is entering into database,
 2-Some names and surnames with apostrophe causing SQL syntax errors.
+
+user_upload_v6.php: previous bugs regarding entering invalid email and apostrophe error has been fixed.
